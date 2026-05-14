@@ -1,0 +1,7 @@
+keyword,volume,kd,position,intent,traffic_estimate,url
+# SE Ranking auth unavailable in this session — re-run /seo-page with SE Ranking authenticated to populate this CSV.
+# Schema is the canonical seo-page CSV. The three keywords below were verified live via Firecrawl SERP probes on 2026-05-14 (positions only — no volume/KD numbers without SE Ranking).
+notion keyboard shortcuts,,,1,informational,,https://www.notion.com/help/keyboard-shortcuts
+notion shortcuts mac,,,1,informational,,https://www.notion.com/help/keyboard-shortcuts
+notion hotkeys,,,1,informational,,https://www.notion.com/help/keyboard-shortcuts
+notion shortcuts cheat sheet,,,11+,informational,,https://www.notion.com/help/keyboard-shortcuts
