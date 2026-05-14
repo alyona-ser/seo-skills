@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. Format based on Keep a Changelog.
 
+## [Unreleased]
+
+Catalogue grows from 24 to 25 skills.
+
+### Added (new skill — MIT-attributed fork)
+- **`seo-images`** (249-line SKILL.md + `references/image-checks.md` + `references/lazy-loaders.md` + `templates/image-object.json` + `templates/picture-element.html`) — image SEO audit for a URL or sampled domain. Inventory via Firecrawl (`firecrawl_scrape` for URL mode, `firecrawl_map` + sampled `firecrawl_scrape` for domain mode). Per-image audit covers alt-text quality (presence, generic-text patterns, length window, keyword stuffing, identical-alt templating bugs), modern-format coverage (WebP / AVIF % direct + via `<picture>` fallback), responsive sizing (`srcset` / `sizes`), lazy-loading taxonomy (`native` / `perfmatters` / `ewww` / `js-generic` / `none` — credits AgriciDaniel for the taxonomy), LCP signals (`loading` / `fetchpriority` / `decoding`), CLS dimensions (`width`/`height` attributes), file-name quality, and `ImageObject` JSON-LD detect/validate/generate. Optional Google PSI cross-reference (Tier 0) pulls `modern-image-formats` / `uses-optimized-images` / `uses-responsive-images` / `offscreen-images` / `unsized-images` / `prioritize-lcp-image` / `efficient-animated-content` and merges `wastedBytes` per image into the prioritised remediation list. Optional SE Ranking audit cross-reference elevates audit-flagged image issues alongside per-page findings. Output is `IMAGES.md` + `images.csv` + per-page inventory + paste-ready `<picture>` snippets + `ImageObject` JSON-LD + optional PSI report. Adapted from `AgriciDaniel/claude-seo`'s `seo-images` skill (MIT). File-level optimisation tooling (`cwebp` / `exiftool` / `ffmpeg`) referenced in `references/image-checks.md` § Optimisation pipeline but explicitly out of scope for the skill itself — analysis only, no auto-fix.
+
+### Changed
+- README skills table updated with the new row (between `seo-schema` and `seo-drift`); install-option-3 skill count corrected from a stale "21 of 22" to the accurate "24 of 25"; Firecrawl-dependents note expanded to mark `seo-images` as a hard requirement (the audit cannot run without Firecrawl — `<img>` attributes are stripped from WebFetch's markdown).
+
+### Notes
+- JPEG XL coverage: rubric flags JPEG XL as a Nov-2025 Chromium-restoration announcement, not yet in stable Chrome — the skill does not recommend JPEG XL deployment today and marks it for monitoring through 2026.
+- CSS background-images surfaced as an explicit blind spot in the synthesis (count reported, not audited — they don't appear in Google Images search and aren't subject to the `<img>`-tag rubric).
+- No version bump committed; tag at release time.
+
 ## [2.8.0] — 2026-05-01
 
 Closes the entire prioritised fix list from `docs/EVAL_RESULT_v2.md` (10 items) and forks two MIT-attributed skills from `AgriciDaniel/claude-seo`. Catalogue grows from 22 to 24 skills; mean output files-per-skill drops from 6.4 to ~2.6 via the evidence/ refactor.
