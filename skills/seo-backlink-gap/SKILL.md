@@ -3,6 +3,8 @@ name: seo-backlink-gap
 description: Find referring domains that link to multiple competitors but not to your site, then enrich with authority, anchor samples, and outreach angle per row. Produces a prospect list an outreach team can start emailing tomorrow. Use when the user asks for backlink gap analysis, link building opportunities, competitor backlink intersection, link prospecting, or wants referring domains they are missing.
 ---
 
+> Example output: [examples/seo-backlink-gap-linear-app-20260514/REPORT.md](../../examples/seo-backlink-gap-linear-app-20260514/REPORT.md)
+
 # Backlink Gap
 
 Produce an actionable link-prospecting list: domains linking to your top competitors but not to you, filtered by authority and relevance, enriched with anchor samples and a suggested outreach angle.
