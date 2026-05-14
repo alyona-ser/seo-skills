@@ -1,7 +1,6 @@
 # Backlinks Profile: stripe.com
 
-> Snapshot dated 2026-05-14 · Single-source design (SE Ranking only — see "Why single-source" in the SKILL).
-> Snapshot dated 2026-05-14 · scope: domain (incl. all subdomains) · Numbers will drift — re-run the skill for current data.
+> Snapshot dated 2026-05-14 · scope: domain (incl. all subdomains) · Single-source design (SE Ranking only — see "Why single-source" in the SKILL) · Numbers will drift — re-run the skill for current data.
 
 ## Verdict
 

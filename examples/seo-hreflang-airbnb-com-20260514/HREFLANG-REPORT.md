@@ -1,7 +1,6 @@
 # Hreflang Audit: airbnb.com
 
-> Audit date 2026-05-14 · Sample size: 5 URLs sampled · Languages detected: 96 hreflang values across the lattice
-> Snapshot dated 2026-05-14 · scope: 5-URL sample · Numbers will drift — re-run the skill for current data.
+> Snapshot dated 2026-05-14 · 5-URL sample · 96 hreflang values per page across the lattice · Numbers will drift — re-run the skill for current data.
 
 ## Verdict: **NEEDS-FIX**
 
