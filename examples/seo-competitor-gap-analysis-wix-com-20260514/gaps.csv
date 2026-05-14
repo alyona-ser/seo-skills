@@ -1,0 +1,6 @@
+keyword,volume,kd,cpc,intent,competitors_ranking,top_competitor_position,target_position,action,score
+# SE Ranking auth unavailable in this session — re-run /seo-competitor-gap-analysis with SE Ranking authenticated to populate.
+# Schema is the canonical seo-competitor-gap-analysis CSV. The three rows below are seed gaps from live Firecrawl SERP probes; volumes/KD pending.
+website builder for agencies,,,,commercial,1,1,not_in_top_50,new_landing_page,
+webflow vs wix,,,,commercial,1,3,not_in_top_10,new_comparison_page,
+squarespace alternatives,,,,commercial,1,,,new_comparison_page,
