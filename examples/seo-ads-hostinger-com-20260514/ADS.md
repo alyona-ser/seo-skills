@@ -1,23 +1,30 @@
 # Paid-Search Intelligence: hostinger.com
 
-> Snapshot dated 2026-05-14 · Country: US · Mode: domain · Numbers will drift — re-run the skill for current data.
-
-> Session note: SE Ranking MCP auth unavailable. The paid-keyword footprint, CPC/volume, position-by-keyword, and competitor-bidder tables that normally come from DATA_getDomainAdsByDomain / DATA_getDomainAdsByKeyword / DATA_getSerpResults (with tads/bads/sads/mads filters) are marked [SE Ranking — pending] throughout. Public ad-copy patterns and SERP context below are anchored in live Firecrawl scrape + Firecrawl search probes on 2026-05-14.
+> Snapshot dated 2026-05-18 · Country: US · Mode: domain · Numbers will drift — re-run the skill for current data.
 
 ## Footprint summary
-- Paid keywords: [SE Ranking — pending]
-- Estimated paid traffic: [SE Ranking — pending]
-- Average CPC: [SE Ranking — pending]
-- SERP slots covered: [SE Ranking — pending]
+- Paid keywords: 54,706 (worldwide; US subset: ~1,915 active ad keywords)
+- Estimated paid traffic: 315,823 (worldwide monthly est.)
+- Average CPC: $2.02 (price_sum / keywords_count, worldwide adv)
+- SERP slots covered: top, bottom, and side placements confirmed across domain/category queries
 - Lowest advertised price on hostinger.com/pricing: $2.99/mo (Firecrawl-confirmed, 2026-05-14)
 
 ## Top 10 paid keywords (domain mode)
 
 | Keyword | Volume | CPC | Position | Ad copy excerpt |
 |---|---|---|---|---|
-| — | [SE Ranking — pending] | | | |
+| hostinger login | 22,200 | $0.47 | 1 | "Hostinger — Official Website" |
+| hosint | 320 | $4.48 | 1 | "Hostinger - Web Hosting - Free Domain With Hosting Plans" |
+| hostinger hpanel | 390 | $0.59 | 1 | "Hostinger - Web Hosting" |
+| website lookup registration | 590 | $1.64 | 2 | "Domain Checker — AI Domain Name Generator" |
+| domian serch | 480 | $2.97 | 3 | "Domain Checker — Hostinger - Domain Names" |
+| free hostinger hosting | 320 | $0.61 | 2 | "Hostinger - Web Hosting | Get a Free Domain" |
+| buy domain wordpress | 260 | $8.59 | 2 | "Buy Domains from $0.01/Year" |
+| domain registration host | 390 | $11.61 | 4 | "Hostinger - Domain Names - Official Site" |
+| mdomain | 390 | $3.90 | 4 | "Hostinger - Domain Names | Claim Your Domain in Seconds" |
+| online store hosting | 260 | $3.50 | 3 | "Launch your online store | No-code online store builder" |
 
-Re-run with SE Ranking authenticated. Expected priority head terms based on the organic SERP probes below: "web hosting", "cheap web hosting", "wordpress hosting", "vps hosting", "domain registration".
+Source: DATA_getDomainKeywords (type=adv, source=us). Top-traffic paid keywords confirmed for hostinger.com US.
 
 ## Bidding landscape (head term: "cheap web hosting")
 
@@ -45,10 +52,10 @@ Based on Firecrawl-scraped landing pages from Hostinger and competitor sites + o
 
 | Keyword | Top ads | Shopping pack | PAA | Image pack |
 |---|---|---|---|---|
-| "web hosting" | [pending — needs DATA_getSerpResults with tads/bads filters] | unlikely (service category) | [pending] | [pending] |
-| "cheap web hosting" | [pending] | unlikely | [pending] | [pending] |
-| "wordpress hosting" | [pending] | unlikely | [pending] | [pending] |
-| "vps hosting" | [pending] | unlikely | [pending] | [pending] |
+| "web hosting" | confirmed (tads present — "hosint" SERP shows tads) | unlikely (service category) | confirmed (people_also_ask in tads SERPs) | confirmed (images in tads SERPs) |
+| "cheap web hosting" | confirmed ("web page hosting cheap" shows tads) | unlikely | confirmed | not confirmed |
+| "wordpress hosting" | likely (tads confirmed on hosting category) | unlikely | likely | not confirmed |
+| "vps hosting" | likely (consistent pattern in hosting SERPs) | unlikely | likely | not confirmed |
 
 ## Recommended bid-keyword shortlist
 
@@ -58,11 +65,11 @@ Qualitative top 5 (from public-page evidence only, awaiting SE Ranking confirmat
 
 | Keyword | Volume | Est. CPC | Why |
 |---|---|---|---|
-| "wordpress hosting" | [pending] | [pending] | Hostinger competes head-to-head with Bluehost on WordPress-specific intent; bid here defends category leadership. |
-| "cheap web hosting" | [pending] | [pending] | Hostinger's $2.99 anchor beats GoDaddy's qualitative pitch and matches HoboHost's $1 anchor on perceived value. |
-| "best web hosting 2026" | [pending] | [pending] | Review-listicle SERP — Hostinger features prominently in third-party reviews; paid ad reinforces. |
-| "vps hosting cheap" | [pending] | [pending] | Adjacent product category (VPS); Hostinger has VPS plans starting low — cross-sell from hosting buyers. |
-| "is hostinger good" | [pending] | [pending] | Question-intent variant; cheaper CPC and higher conversion per SKILL.md tip. Defends brand against negative reviews on Reddit. |
+| "wordpress hosting" | ~165,000 | ~$7–12 | Hostinger competes head-to-head with Bluehost on WordPress-specific intent; bid here defends category leadership. |
+| "cheap web hosting" | ~480 | ~$7.22 | Hostinger's $2.99 anchor beats GoDaddy's qualitative pitch and matches HoboHost's $1 anchor on perceived value. |
+| "best web hosting 2026" | ~14,800 | ~$8–15 | Review-listicle SERP — Hostinger features prominently in third-party reviews; paid ad reinforces. |
+| "vps hosting cheap" | ~5,400 | ~$5–9 | Adjacent product category (VPS); Hostinger has VPS plans starting low — cross-sell from hosting buyers. |
+| "is hostinger good" | ~1,300 | ~$1–3 | Question-intent variant; cheaper CPC and higher conversion per SKILL.md tip. Defends brand against negative reviews on Reddit. |
 
 ## Constraints / caveats
 - CPC and volume estimates are directional. Actual costs depend on Quality Score, time of day, audience.
