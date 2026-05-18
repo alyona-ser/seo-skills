@@ -82,7 +82,7 @@ In Firecrawl's map output, a meaningful share of `notion.so/*` URLs are **user-w
 - See `06-topic-ownership-map.md` for the cluster × subdomain matrix.
 - See `07-fragmentation-flags.md` for migration + user-workspace details.
 - See `evidence/01-subdomains-list.md` for the discovered subdomain set (Firecrawl `firecrawl_map` + robots.txt + spot-check WebFetches).
-- See `evidence/02-overview-by-subdomain.md` for the structured-but-pending overview rows (SE Ranking auth required).
+- See `evidence/02-overview-by-subdomain.md` for per-subdomain overview data (live SE Ranking data, 2026-05-18).
 
 ## Handoff payload
 
