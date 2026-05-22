@@ -83,27 +83,38 @@ Full index of all 25 examples: [`examples/README.md`](examples/README.md). Every
 
 ## Skills
 
+### Featured skills
+
+The seven to reach for first — each links to a real, dated example run.
+
+| Skill | What it produces | Example run |
+|---|---|---|
+| [`seo-ai-search-share-of-voice`](skills/seo-ai-search-share-of-voice/SKILL.md) | Share-of-voice heatmap across ChatGPT, Perplexity, Gemini, Google AI Overview, and AI Mode, plus topic-cluster ownership per brand | [wix.com](examples/seo-ai-search-share-of-voice-wix-com-20260427/REPORT.md) |
+| [`seo-backlink-gap`](skills/seo-backlink-gap/SKILL.md) | Prospect list of referring domains linking to multiple competitors but not to your site, enriched with authority, anchor samples, and outreach angles | [linear.app](examples/seo-backlink-gap-linear-app-20260514/REPORT.md) |
+| [`seo-content-brief`](skills/seo-content-brief/SKILL.md) | Writer-ready editor brief from a domain and topic, with keyword research, SERP analysis, competitor content teardown, internal linking plan, and AI Search angle | [vercel.com](examples/seo-content-brief-vercel-rate-limiting-20260514/BRIEF.md) |
+| [`seo-keyword-cluster`](skills/seo-keyword-cluster/SKILL.md) | Intent-grouped clusters with pillar plus spokes architecture and H1/H2 suggestions per spoke | [headless CMS](examples/seo-keyword-cluster-headless-cms-20260514/PLAN.md) |
+| [`seo-ads`](skills/seo-ads/SKILL.md) | Paid-search competitive intelligence. Domain ad footprint, bidding landscape per keyword, ad-copy patterns, SERP shopping/ad-pack visibility, recommended bid-keyword shortlist | [hostinger.com](examples/seo-ads-hostinger-com-20260514/ADS.md) |
+| [`seo-content-audit`](skills/seo-content-audit/SKILL.md) | E-E-A-T (60-item) + CITE (30-item) audit for existing content with publish / publish-with-fixes / no-publish verdict and citation-readiness analysis | [stripe.com](examples/seo-content-audit-stripe-rate-limiters-20260514/VERDICT.md) |
+| [`seo-sxo`](skills/seo-sxo/SKILL.md) | Read SERPs backwards to find page-type mismatches. Scores the page from 4 personas; produces a wireframe for the SERP-winning page type | [bigin.com](examples/seo-sxo-bigin-com-20260514/SXO-REPORT.md) |
+
+### More skills
+
+The rest of the catalogue — every other skill the plugin ships.
+
 | Skill | What it produces | Primary triggers |
 |---|---|---|
-| [`seo-content-brief`](skills/seo-content-brief/SKILL.md) | Writer-ready editor brief from a domain and topic, with keyword research, SERP analysis, competitor content teardown, internal linking plan, and AI Search angle | "content brief", "blog brief", "article outline", "editor brief" |
-| [`seo-ai-search-share-of-voice`](skills/seo-ai-search-share-of-voice/SKILL.md) | Share-of-voice heatmap across ChatGPT, Perplexity, Gemini, Google AI Overview, and AI Mode, plus topic-cluster ownership per brand | "AI Search share of voice", "LLM visibility", "AEO", "GEO analysis", "AI Overview competitive analysis" |
-| [`seo-backlink-gap`](skills/seo-backlink-gap/SKILL.md) | Prospect list of referring domains linking to multiple competitors but not to your site, enriched with authority, anchor samples, and outreach angles | "backlink gap", "link building opportunities", "competitor backlink intersection", "link prospecting" |
-| [`seo-keyword-cluster`](skills/seo-keyword-cluster/SKILL.md) | Intent-grouped clusters with pillar plus spokes architecture and H1/H2 suggestions per spoke | "keyword clustering", "topical map", "pillar content strategy", "content calendar from keywords" |
 | [`seo-competitor-gap-analysis`](skills/seo-competitor-gap-analysis/SKILL.md) | Keywords competitors rank for that the target does not, filtered by intent, volume, KD, and scored for priority | "competitor gap", "keyword gap", "organic content gap", "missing keyword opportunities" |
 | [`seo-agency-landing-page`](skills/seo-agency-landing-page/SKILL.md) | Demand-gen landing page for an SEO agency with a free-audit lead magnet, grounded in real niche data | "SEO agency landing page", "lead-gen page", "free-audit landing page" |
 | [`seo-page`](skills/seo-page/SKILL.md) | URL-level keyword & traffic intelligence with keep / refresh / consolidate / kill verdict for one page | "analyze this page", "page SEO performance", "what does this URL rank for", "should I refresh this page" |
 | [`seo-schema`](skills/seo-schema/SKILL.md) | JSON-LD detect, validate, generate. Five bundled templates (Article / Product / LocalBusiness / FAQPage / BreadcrumbList) | "schema markup", "structured data", "JSON-LD", "rich results", "schema validation" |
 | [`seo-images`](skills/seo-images/SKILL.md) | Image SEO audit for a URL or sampled domain: alt-text quality, WebP/AVIF coverage, `srcset`/`sizes`, lazy-loading + LCP signals (`loading` / `fetchpriority` / `decoding`), CLS dimensions, file naming, and `ImageObject` JSON-LD. Optional PSI byte-saving cross-reference. Paste-ready `<picture>` + JSON-LD snippets | "image SEO", "image audit", "alt-text audit", "WebP coverage", "AVIF", "responsive images", "lazy loading", "CLS images", "image schema", "ImageObject" |
 | [`seo-drift`](skills/seo-drift/SKILL.md) | Git for SEO — baseline, compare, history. Severity-coded regression report across authority, traffic, keywords, backlinks, page fingerprint | "SEO drift", "did anything break", "deployment check", "baseline this site", "SEO regression" |
-| [`seo-sxo`](skills/seo-sxo/SKILL.md) | Read SERPs backwards to find page-type mismatches. Scores the page from 4 personas; produces a wireframe for the SERP-winning page type | "why isn't this page ranking", "SXO", "page type mismatch", "intent mismatch", "search experience" |
 | [`seo-technical-audit`](skills/seo-technical-audit/SKILL.md) | One-shot technical audit: crawlability, indexability, security, mobile, structured data, JS rendering. Top-10 fix list ranked by impact × effort | "technical audit", "site audit", "audit my site", "crawl issues", "indexation issues" |
-| [`seo-content-audit`](skills/seo-content-audit/SKILL.md) | E-E-A-T (60-item) + CITE (30-item) audit for existing content with publish / publish-with-fixes / no-publish verdict and citation-readiness analysis | "content quality audit", "E-E-A-T check", "is this content good", "review this article", "AI search readiness" |
 | [`seo-sitemap`](skills/seo-sitemap/SKILL.md) | Compare a domain's XML sitemap to the most recent SE Ranking audit. Surfaces missing-from-sitemap, orphans, broken entries, lastmod issues | "sitemap analysis", "check my sitemap", "missing pages", "orphan pages", "sitemap health" |
 | [`seo-competitor-pages`](skills/seo-competitor-pages/SKILL.md) | Generate "X vs Y" / "alternatives to X" / "best X for Y" landing pages with feature matrix, schema, balanced verdict, and CTA flow | "comparison page", "vs page", "alternatives page", "X vs Y", "alternative to X" |
 | [`seo-backlinks-profile`](skills/seo-backlinks-profile/SKILL.md) | Full backlink profile audit (vs gap-only `seo-backlink-gap`): authority distribution, anchor diversity, IP/subnet concentration, growth/decay, toxic-candidate flagging | "backlink profile", "link profile audit", "anchor distribution", "toxic links", "disavow candidates" |
 | [`seo-subdomain`](skills/seo-subdomain/SKILL.md) | Subdomain ownership map. Lists subdomains, topic ownership, fragmentation/cannibalization flags, consolidate / split recommendations | "subdomain analysis", "subdomain ownership", "blog vs main domain", "should I consolidate subdomains" |
 | [`seo-geo`](skills/seo-geo/SKILL.md) | URL-level Generative Engine Optimization analysis. AIO citation footprint per primary keyword + page passage-level audit + recommendations to improve LLM citability | "GEO for this page", "AIO citation analysis", "AI search readiness for URL", "why isn't this page cited" |
-| [`seo-ads`](skills/seo-ads/SKILL.md) | Paid-search competitive intelligence. Domain ad footprint, bidding landscape per keyword, ad-copy patterns, SERP shopping/ad-pack visibility, recommended bid-keyword shortlist | "paid search analysis", "competitor ads", "PPC competitive", "who bids on this keyword", "shopping pack" |
 | [`seo-keyword-niche`](skills/seo-keyword-niche/SKILL.md) | Mine longtail + question keywords for niche content opportunities. Outputs a content-tier plan with template spec, URL pattern, sample pages, and thin-content quality gates | "longtail keywords", "question keywords", "niche content", "content opportunities at scale", "programmatic SEO" |
 | [`seo-hreflang`](skills/seo-hreflang/SKILL.md) | Hreflang and international SEO audit for multi-language / multi-region sites. Validates language-region codes, return tags, `x-default`, and canonical alignment across per-URL HTML, the SE Ranking audit, and the XML sitemap. PASS / NEEDS-FIX / BROKEN verdict with a top-fixes table | "hreflang", "international SEO", "i18n", "language targeting", "x-default", "regional sites", "multi-language SEO" |
 | [`seo-local`](skills/seo-local/SKILL.md) | Local SEO audit for brick-and-mortar, service-area, and multi-location businesses. Scores Google Business Profile signals on the page, NAP consistency across page and schema, on-page local intent, Tier-1 citation footprint, review-platform presence, and local-pack rank. Prioritised fix list | "local SEO", "GBP", "Google Business Profile", "NAP", "local pack", "citations", "near me", "service area", "multi-location SEO" |
@@ -114,13 +125,13 @@ Full index of all 25 examples: [`examples/README.md`](examples/README.md). Every
 
 ## Optional extensions
 
-Some skills work best when paired with optional MCP servers or Python toolchains beyond SE Ranking. Each extension is opt-in — the skills that use it degrade gracefully when it's absent (the affected sections emit `(skipped — extension not installed)` notes rather than failing the run).
+Some skills work best when paired with optional MCP servers or Python toolchains beyond SE Ranking. Each extension is opt-in — the skills that use it degrade gracefully when it's absent: they fall back to a lower-fidelity method, or note what was unavailable, rather than failing the run.
 
 The fastest way to install both extensions is the top-level `install.sh` ([Install option 3](#3-manual-install-only-if-you-want-seo-google-or-the-optional-extensions)). The per-extension scripts below are equivalent — use them when you only want one of the two, or when you've already cloned the repo and want to install/re-install a single extension without re-running the wrapper.
 
 ### Firecrawl (raw HTML, JSON-LD, JS rendering, site crawl)
 
-`WebFetch` returns markdown only — every `<head>` `<meta>` tag, every `<link rel="canonical">`, every `<script type="application/ld+json">` block is stripped before the skill sees it. The Firecrawl extension closes that gap and adds full-site crawl, URL discovery, in-site search, and screenshots.
+**Firecrawl is the recommended way to run any skill that inspects raw HTML — but it is not mandatory.** Without it, those skills fall back to `WebFetch` (Claude's built-in page fetch) and still produce a deliverable, just a lower-fidelity one: `WebFetch` returns markdown only, so every `<head>` `<meta>` tag, every `<link rel="canonical">`, and every `<script type="application/ld+json">` block is stripped before the skill sees it. The Firecrawl extension closes that gap and adds full-site crawl, URL discovery, in-site search, and screenshots.
 
 ```bash
 # From inside a clone of this repo:
@@ -129,7 +140,7 @@ bash extensions/firecrawl/install.sh
 
 The script verifies Node 20+, prompts for your `FIRECRAWL_API_KEY` (free tier is 500 credits/month at <https://firecrawl.dev>), and idempotently merges the MCP entry into `~/.claude/settings.json` (existing entries preserved). See [`extensions/firecrawl/README.md`](extensions/firecrawl/README.md) for full setup, free-tier credit math, troubleshooting, and tool-prefix details.
 
-**Skills that gain capabilities when Firecrawl is installed:** `seo-page`, `seo-schema`, `seo-geo`, `seo-technical-audit`, `seo-sitemap`, `seo-content-audit`, `seo-drift`, `seo-content-brief`, `seo-competitor-pages`, `seo-sxo`, `seo-backlinks-profile`, plus the dedicated `seo-firecrawl` orchestrator. **`seo-images` requires Firecrawl** to run at all — `<img>` attributes (`srcset`, `loading`, `fetchpriority`, etc.) are stripped from WebFetch's markdown, so the audit has nothing to analyse without it. Every other Firecrawl-using skill supports a `--no-firecrawl` flag to opt out at runtime even when the extension is installed (saves credits).
+**Skills that gain capabilities when Firecrawl is installed:** `seo-page`, `seo-schema`, `seo-geo`, `seo-technical-audit`, `seo-sitemap`, `seo-content-audit`, `seo-drift`, `seo-content-brief`, `seo-competitor-pages`, `seo-sxo`, `seo-backlinks-profile`. Without Firecrawl, each of these falls back to `WebFetch` as described above — lower-fidelity, but still a usable deliverable — and supports a `--no-firecrawl` flag to opt out at runtime even when the extension is installed (saves credits). **Two skills are hard exceptions that need Firecrawl to run at all:** the dedicated `seo-firecrawl` orchestrator, and `seo-images` — `<img>` attributes (`srcset`, `loading`, `fetchpriority`, etc.) are stripped from `WebFetch`'s markdown, so the audit has nothing to analyse without it.
 
 ### Google APIs (real CWV, GSC, GA4, YouTube, Keyword Planner)
 
