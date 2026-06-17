@@ -9,10 +9,10 @@
     "url": "https://seranking.com"
   },
   "license": "MIT",
-  "category": "Productivity",
+  "category": "developer-tools",
   "homepage": "https://seranking.com/api/integrations/mcp/",
   "repository": "https://github.com/seranking/seo-skills",
-  "icon": "icon.png",
+  "logo": "icon.png",
   "keywords": [
     "SEO",
     "GEO",
